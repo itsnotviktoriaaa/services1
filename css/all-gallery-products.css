@@ -1,0 +1,46 @@
+.header-wrapper {
+    background-color: #292525;
+}
+
+.header {
+    padding: 45px 0;
+}
+
+.menu ul {
+    padding-left: unset;
+}
+
+.gallery {
+    padding: 68px 0 150px 0;
+    background-color: #FFFFFF;
+}
+
+.backFromGallery {
+    margin-bottom: 65px;
+}
+
+.backFromGallery a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #292525;
+}
+
+.gallery h2 {
+    color: #292525;
+}
+
+.btn-back-gallery {
+    width: 302px;
+    padding: 25px 46px;
+}
+
+.main-products {
+    padding: 68px 0 70px 0;
+}
+
+.table-wrapper {
+    padding: 40px;
+    border: 1px solid #B8BBBE;
+    border-radius: 20px;
+}

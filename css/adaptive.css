@@ -1,0 +1,983 @@
+@media screen and (min-width: 1921px) {
+    .green-up, .green-down {
+        display: none;
+    }
+
+    .adaptive-green-up-2561, .adaptive-green-down-2561 {
+        display: block;
+        position: absolute;
+    }
+
+    .adaptive-green-up-2561 {
+        top: -10px;
+        left: 0;
+    }
+
+    .adaptive-green-down-2561 {
+        bottom: -52px;
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1421px) {
+    .steps {
+        max-width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1326px) {
+    .steps {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 1257px) {
+    .steps h2 {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1256px) {
+    .steps {
+        padding: 150px 15px;
+    }
+
+
+    .first {
+        column-gap: unset;
+    }
+
+    .first-contacts {
+        margin-right: 63px;
+    }
+
+    .steps-img {
+        display: none;
+    }
+
+    .step-wrapper {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 60px;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    .step {
+        position: relative;
+        top: unset;
+        left: unset;
+        bottom: unset;
+        right: unset;
+        width: 305px;
+        min-height: 165px;
+    }
+
+    .steps-img-adaptive {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .steps-description {
+        display: none;
+    }
+
+    .steps-description-adaptive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 1241px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1153px) {
+    .steps-description-adaptive {
+        flex-wrap: wrap;
+        row-gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    .other-items {
+        column-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .first-main-h1 h1 {
+        font-size: 28px;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .product-items {
+        justify-content: center;
+    }
+
+    .info-product {
+        max-width: 750px;
+        left: calc(50% - 375px);
+        top: calc(50% - 208px);
+    }
+
+    .info-product-text-description-details {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1045px) {
+
+    .step {
+        font-size: 15px;
+        text-align: center;
+        width: 250px;
+    }
+
+    .steps-description-text, .adventure-monuments {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+
+    .about, .steps, .main-products, .gallery, .other, .questions {
+        padding: 100px 0;
+    }
+
+    .first-screen {
+        background-position: right;
+    }
+
+    .steps h2, .main-products h2, .gallery h2, .other h2, .questions h2, .know-days-info-text h2 {
+        font-size: 25px;
+    }
+
+    .green-up, .green-down {
+        display: none;
+    }
+
+    .adaptive-green-up-1025 {
+        display: block;
+        position: absolute;
+        top: -218px;
+        left: -62px;
+    }
+
+    .adaptive-green-down-1025 {
+        display: block;
+        position: absolute;
+        bottom: -195px;
+        left: -27px;
+    }
+
+    .know-days {
+        padding: 214px 0 227px 0;
+    }
+
+    .gallery-items {
+        display: none;
+    }
+
+    .adaptive-gallery-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 60px;
+    }
+
+    .adaptive-gallery-item {
+        max-width: 320px;
+    }
+
+    .adaptive-gallery-item img {
+        width: 100%;
+    }
+
+    .know-days-form-description {
+        font-size: 15px;
+    }
+
+    .know-days-info-text-tel {
+        font-size: 16px;
+    }
+
+    .know-days-connect-online-text, .know-days-connect-tel {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .first {
+        flex-direction: column;
+        row-gap: 45px;
+    }
+
+    .first-contacts {
+        margin-right: unset;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .first-main {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .first-main-description {
+        max-width: unset;
+    }
+
+    .first-main-buttons {
+        justify-content: space-between;
+    }
+
+    .contacts-line {
+        display: none;
+    }
+
+    .contacts-line-horizontal {
+        display: block;
+        position: relative;
+        bottom: 8px;
+    }
+
+    .contacts-socials {
+        flex-direction: row;
+        column-gap: 50px;
+    }
+
+    .online {
+        justify-content: center;
+    }
+
+    .first-monument {
+        margin: 0 auto;
+        max-width: 265px;
+    }
+
+    .about-h2 {
+        text-align: center;
+        margin: 0 auto 24px auto;
+    }
+
+    .about-description {
+        margin: 0 auto 80px auto;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1022px) {
+    .menu ul {
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .other-item-text {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 921px) {
+
+    .steps h2, .main-products h2, .gallery h2, .other h2, .questions h2, .know-days-info-text h2 {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .about, .steps, .main-products, .gallery, .other, .questions {
+        padding: 90px 0;
+    }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about-description {
+        margin: 0 auto 60px auto;
+    }
+
+    .product h3 {
+        font-size: 17px;
+    }
+
+    .know-days-info-text h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 891px) {
+    .other-item-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .step-wrapper {
+        row-gap: 35px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    .footer-items {
+        justify-content: space-between;
+    }
+
+    .footer-item-group:nth-child(5) {
+        row-gap: 2px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .other-item-text {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .step-number {
+        font-size: 12px;
+    }
+
+    .product .product-items .product-item:nth-child(4), .product .product-items .product-item:nth-child(5), .product .product-items .product-item:nth-child(6){
+        display: none;
+    }
+
+    .other-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .other-item-text {
+        font-size: 14px;
+    }
+
+    .queries {
+        flex-wrap: wrap;
+    }
+
+    .query:nth-child(2) {
+        display: none;
+    }
+
+    .ui-accordion .ui-accordion-header:nth-child(5), .ui-accordion .ui-accordion-header:nth-child(7) {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .info-product {
+        max-width: 400px;
+    }
+
+    .info-product-items {
+        column-gap: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-product {
+        left: calc(50% - 200px);
+        top: calc(50% - 396px);
+        padding: 15px 30px 48px 30px;
+    }
+
+    .info-product-text-title {
+        font-size: 18px;
+    }
+
+    .info-product-text-description-details {
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 725px) {
+    .agree label {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .know-days-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .know-days-info-text h2 {
+        text-align: center;
+    }
+
+    .know-days-info-text-tel {
+        display: none;
+    }
+
+    .know-days-info-text-number {
+        display: none;
+    }
+
+    .know-days-info-text-social {
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .green-up {
+        display: none;
+    }
+
+    .adaptive-green-up-715 {
+        display: block;
+        position: absolute;
+        top: -149px;
+        left: 0;
+    }
+
+    .agree label {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .product-items {
+        column-gap: 15px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .btn-price-catalog {
+        font-size: 13px;
+        max-width: 269px;
+        padding: 18px 50px;
+    }
+
+    .btn-gallery {
+        font-size: 13px;
+        max-width: 269px;
+        padding: 18px 50px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .adventure-monuments {
+        font-size: 15px;
+        padding: 30px 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .takeInfoFromUser {
+        max-width: 400px;
+        left: calc(50% - 200px);
+        top: calc(50% - 247px);
+    }
+
+    .takeInfoFromUser-img {
+        max-width: 25px;
+    }
+
+    .takeInfoFromUser-company {
+        display: none;
+    }
+
+    .takeInfoFromUser-timetable-title, .takeInfoFromUser-timetable-description {
+        font-size: 14px;
+    }
+
+    .form-input input, .form-input input::placeholder {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 679px) {
+    .footer-item-group:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 651px) {
+    .btn-price-catalog {
+        max-width: 235px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .first-main-h1 h1 {
+        font-size: 24px;
+    }
+
+    .first-main-description {
+        font-size: 15px;
+    }
+
+    .first-main-description-3years {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .menu ul {
+        font-size: 13px;
+    }
+
+    .catalog-pop {
+        width: 160px;
+    }
+
+    .catalog-pop .catalog-pop-items div a {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 624px) {
+    .first-main-buttons {
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .footer-items {
+        row-gap: 30px;
+    }
+
+    .footer-item-group:nth-child(2), .footer-item-group:nth-child(5) {
+        text-align: right;
+    }
+
+}
+
+@media screen and (max-width: 623px) {
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about-description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .step {
+        font-size: 14px;
+        width: 230px;
+    }
+
+    .steps-description-text {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 601px) {
+    .sl-container, .sl-container1, .sl-container2 {
+        display: none;
+    }
+
+    .before-afters {
+        margin-bottom: unset;
+    }
+
+    .before-afters-adaptive {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .before-after-adaptive {
+        max-width: 564px;
+    }
+
+    .before-after-adaptive img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+    .adventure-monuments {
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .know-days-connect {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .steps-description-text {
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .adventure-monuments {
+        font-size: 13px;
+        padding: 20px 20px;
+    }
+
+    .steps-description-text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .first-contacts {
+        justify-content: center;
+    }
+
+    .contacts-line-horizontal {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .other h2 {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .footer-item-group:nth-child(5) {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .header {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        right: 20px;
+        position: fixed;
+        top: 30px;
+        z-index: 99999;
+    }
+
+    .adaptive-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0 0 0;
+    }
+
+    .adaptive-logo {
+        width: 35px;
+    }
+
+    .adaptive-logo a img {
+        width: 100%;
+    }
+
+    .adaptive-tel a {
+        text-decoration: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: .2s ease all;
+    }
+
+}
+
+@media screen and (max-width: 433px) {
+    .footer-item-group:nth-child(5) {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .first-main-h1 h1 {
+        font-size: 21px;
+    }
+
+    .first-main-description, .first-main-description-3years {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .btn-more, .btn-call {
+        font-size: 11px;
+    }
+
+    .adaptive-tel a {
+        font-size: 14px;
+    }
+
+    .steps-description-text {
+        padding: 15px;
+    }
+
+    .about h2 {
+        font-size: 17px;
+    }
+
+    .about-description {
+        font-size: 14px;
+    }
+
+    .steps h2, .main-products h2, .gallery h2, .other h2, .questions h2, .know-days-info-text h2{
+        font-size: 19px;
+    }
+
+    .product h3 {
+        font-size: 17px;
+    }
+
+    .product-item-info h4, .product-item-info-model, .product-item-info-price, .product-item-info-price-s {
+        font-size: 14px;
+    }
+
+    .product-price-catalog-btn {
+        margin-top: 40px;
+    }
+
+    .ui-widget {
+        font-size: 14px;
+    }
+
+    .other-item {
+        max-width: 280px;
+    }
+
+    .other-item-text {
+        font-size: 13px;
+    }
+
+    .adaptive-gallery-item {
+        max-width: 280px;
+    }
+
+    .know-days-form {
+        max-width: 332px;
+    }
+
+    .know-days-form-title {
+        font-size: 18px;
+    }
+
+    .know-days-form-description {
+        font-size: 14px;
+    }
+
+    .know-days-connect-online-text, .know-days-connect-tel {
+        font-size: 14px;
+    }
+
+    .know-days-info-text h2 {
+        margin-bottom: 30px;
+    }
+
+    .footer-item {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .info-product {
+        max-width: 300px;
+        left: calc(50% - 150px);
+        top: calc(50% - 340px);
+        padding: 15px 20px 48px 20px;
+    }
+
+    .info-product-text-title {
+        font-size: 15px;
+    }
+
+    .info-product-text-characteristics {
+        font-size: 14px;
+    }
+
+    .info-product-text-description-details {
+        font-size: 12px;
+    }
+
+    .takeInfoFromUser {
+        max-width: 300px;
+        left: calc(50% - 150px);
+        top: calc(50% - 233px);
+        padding: 15px 25px 65px 25px;
+    }
+
+    .takeInfoFromUser-timetable-title, .takeInfoFromUser-timetable-description {
+        font-size: 12px;
+    }
+
+    .form-input input {
+        max-width: 194px;
+        font-size: 11px;
+    }
+
+    .form-input input::placeholder {
+        font-size: 11px;
+    }
+
+    .btn-form-second {
+        max-width: 194px;
+        padding: 16px 24px;
+        font-size: 12px;
+    }
+
+    .agree label {
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .product-item-info-buttons {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .know-days-form {
+        padding: 56px 15px 56px;
+    }
+
+    .know-days-info-text h2 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .know-days-form-title {
+        font-size: 16px;
+    }
+
+    .know-days-form-description {
+        font-size: 13px;
+    }
+
+    .form-input:first-child input, .form-input input {
+        font-size: 12px;
+    }
+
+    .agree {
+        font-size: 8px;
+    }
+
+    .ui-accordion .ui-accordion-header, .ui-accordion .ui-accordion-content {
+        font-size: 13px;
+    }
+
+    .ui-state-active .ui-icon {
+        background-image: url("../images/cancel-accordion-adaptive.png");
+    }
+
+    .ui-icon {
+        width: 37px;
+        height: 37px;
+        background-image: url("../images/plus-accordion-adaptive.png");
+    }
+
+    .ui-state-hover .ui-icon {
+        background-image: url("../images/cancel-accordion-adaptive.png");
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .footer-items {
+        justify-content: center;
+    }
+
+    .footer-item-group:nth-child(1), .footer-item-group:nth-child(2), .footer-item-group:nth-child(4), .footer-item-group:nth-child(5) {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 346px) {
+    .btn-know-price {
+        padding: 13px 20px;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    .adventure-monuments {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    .online-text {
+        font-size: 10px;
+    }
+
+    .first-main-h1 h1 {
+        font-size: 18px;
+    }
+
+    .first-main-description, .first-main-description-3years {
+        font-size: 13px;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+    .know-days {
+        padding: 193px 0 233px 0;
+    }
+
+    .know-days-connect-online-text, .know-days-connect-tel {
+        font-size: 13px;
+    }
+
+    .adaptive-green-up-1025 {
+        top: -223px;
+        left: -56px;
+    }
+
+}
